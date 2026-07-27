@@ -13,7 +13,7 @@
 ## 🌐 Live Deployed Application
 
 🔗 **Access the Live Production App:**  
-https://bill-lenss-ai.vercel.app/
+👉 **[https://ais-pre-ivwh73oqk5qflodmx6k5fr-1064946044178.asia-southeast1.run.app](https://ais-pre-ivwh73oqk5qflodmx6k5fr-1064946044178.asia-southeast1.run.app)**
 
 ---
 
@@ -33,11 +33,7 @@ https://bill-lenss-ai.vercel.app/
 ---
 
 ## 🎯 Overview & Real-World Problem
-Bill Lens AI is an intelligent web application that allows users to upload utility bills or receipts and instantly receive an AI-powered explanation of the bill.
 
-Instead of manually reading complex bills, users receive a simple breakdown of charges, important information, potential anomalies, and personalized financial insights.
-
-The application combines **Google Gemini AI**, **Firebase Authentication**, **Cloud Firestore**, and OCR-based bill analysis to create a smart financial assistant.
 ### The Challenge
 Pakistani households face immense difficulty understanding and tracking complex utility bills from distribution companies like **LESCO**, **K-Electric**, **SNGPL**, **SSGC**, **PTCL**, and **WASA**. 
 
@@ -49,13 +45,6 @@ Key consumer challenges include:
 
 ### The Solution: BILL LENS AI
 **BILL LENS AI** is a specialized financial intelligence platform engineered specifically for Pakistani utility consumers. By combining **Google Gemini 3.6 Flash** multimodal computer vision with real-time tariff analytics, Bill Lens AI allows users to scan or upload utility bills, extract exact itemized breakdowns, detect hidden surcharges and anomalies, receive a 0–100 **Financial Health Score**, and access actionable energy habit optimizations in both **English and Urdu** (with native RTL support).
-# 👥 Target Users
-- Students
-- Families
-- Homeowners
-- Renters
-- Small business owners
-- Anyone who wants to better understand their bills
 
 ---
 
@@ -110,27 +99,6 @@ BILL LENS AI is calibrated for Pakistani utility distribution companies and serv
 | 🏥 **Healthcare & Taxes** | Chughtai Lab, Shaukat Khanum, State Life Insurance, EFU, Excise & Property Tax |
 
 ---
-# 🧠 AI Feature
-
-Bill Lens AI uses **Google Gemini AI** to understand uploaded bills and provide natural-language explanations.
-
-The AI performs the following tasks:
-
-- Reads bill information
-- Identifies provider
-- Extracts important values
-- Explains charges
-- Detects unusual fees
-- Suggests possible savings
-- Summarizes the bill in simple language
-
----
-
-# 📝 AI System Prompt
-
-The AI assistant follows instructions similar to:
-
-> You are an expert financial assistant specializing in utility bill analysis. Carefully analyze the uploaded bill or receipt, extract all important information including provider name, bill amount, due date, taxes, service charges, and payment details. Explain every charge in simple language. Detect any unusual or suspicious fees, identify billing anomalies, and provide practical money-saving recommendations. Respond clearly using bullet points and keep the explanation easy for non-technical users. If information is missing or unclear, state that explicitly instead of guessing.
 
 ## 🏗️ System Architecture & Data Flow
 
@@ -155,32 +123,7 @@ The AI assistant follows instructions similar to:
   │    Multimodal AI Engine     │
   └─────────────────────────────┘
 ```
-# 🛠 Technologies Used
 
-## Frontend
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-
-## Backend
-
-- Firebase Authentication
-- Cloud Firestore
-
-## Artificial Intelligence
-
-- Google Gemini API
-
-## Development Tools
-
-- Google AI Studio
-- GitHub
-- GitHub Desktop
-- Vercel
-
----
 ---
 
 ## 🤖 AI Engine & Prompt Architecture
@@ -312,66 +255,42 @@ npm start
 ## 🖼️ UI Screenshots & Layout Preview
 
 ### 1. Main Dashboard (English)
-<img width="1920" height="963" alt="Screenshot 2026-07-27 202348" src="https://github.com/user-attachments/assets/ea36432d-9e07-4ea9-919d-1ffeb07738a5" />
-<img width="1920" height="971" alt="Screenshot 2026-07-27 203317" src="https://github.com/user-attachments/assets/47dafea0-d67b-47e7-a581-ee5e6fe5c8b0" />
+```text
++-------------------------------------------------------------+
+| ⚡ BILL LENS AI                       [Notifications] [User] |
+| ----------------------------------------------------------- |
+| Good Morning, Iqra 👋                                       |
+| Saved with AI: ₨ 4,200 | [ Search LESCO, SNGPL, PTCL...    ] |
+|                                                             |
+| 🚨 1 Surcharge Anomaly Detected                             |
+| LESCO bill contains ₨ 4,120 Fuel Adjustment surcharge (+32%) |
+|                                                             |
+| 📊 Financial Health Score: 84 / 100 (Good)                  |
++-------------------------------------------------------------+
+```
 
-<img width="1920" height="977" alt="Screenshot 2026-07-27 203411" src="https://github.com/user-attachments/assets/1ce4f9b0-9e69-41e2-91a4-1aa15b1afc27" />
-<img width="1920" height="971" alt="Screenshot 2026-07-27 203343" src="https://github.com/user-attachments/assets/795542ce-a2af-422a-95ed-918519f8f8bc" />
-<img width="1920" height="957" alt="Screenshot 2026-07-27 203503" src="https://github.com/user-attachments/assets/6715b49b-7a8b-4470-8bb8-1214f7f5df28" />
-<img width="1920" height="955" alt="Screenshot 2026-07-27 203436" src="https://github.com/user-attachments/assets/e0c8d331-f233-4fd2-9760-70e77e5ba24c" />
-
-<img width="1920" height="970" alt="Screenshot 2026-07-27 203537" src="https://github.com/user-attachments/assets/73dc01ac-7905-4c9f-993f-384172274c23" />
-<img width="1920" height="965" alt="Screenshot 2026-07-27 203524" src="https://github.com/user-attachments/assets/cdf2a26c-fa00-49d6-8292-982fea23ddb5" />
-<img width="1920" height="971" alt="Screenshot 2026-07-27 203553" src="https://github.com/user-attachments/assets/c445fc3e-9ae5-41a3-ad4a-78f64c9199ba" />
-
-# 💡 Challenges Faced
-
-During development several challenges were encountered:
-
-- Integrating Firebase Authentication
-- Configuring Firestore database
-- Connecting Gemini API
-- Managing uploaded bill data
-- Designing a clean and responsive UI
-- Handling AI-generated responses efficiently
-
-These challenges helped improve problem-solving skills and understanding of full-stack AI application development.
-
----
-
-# 📚 Learning Outcomes
-
-This project helped me learn:
-
-- React application development
-- Firebase Authentication
-- Cloud Firestore
-- AI integration using Gemini
-- Git & GitHub workflow
-- Deployment using Vercel
-- Prompt engineering
-- UI/UX design principles
+### 2. Main Dashboard (Urdu RTL Mode)
+```text
++-------------------------------------------------------------+
+| [صارف] [اطلاعات]                                بل لینس AI ⚡ |
+| ----------------------------------------------------------- |
+| 👋 صبح بخیر، اقراء                                          |
+| AI سے بچت: ₨ 4,200 | [ ...لیسکو، ایس این جی پی ایل تلاش کریں] |
+|                                                             |
+| 📊 مالیاتی صحت اسکور: 84 / 100 (اچھا)                        |
+|                                                             |
+| 🚨 1 سرچارج کی خرابی پائی گئی                               |
+| لیسکو بل میں ₨ 4,120 فیول ایڈجسٹمنٹ شامل ہے (+32%)          |
++-------------------------------------------------------------+
+```
 
 ---
 
-# 👩‍💻 Author
+## 📜 License & Credits
 
-**Iqra Imtiaz**
+Designed and developed with ❤️ for Pakistani utility consumers powered by **Google AI Studio** and **Gemini 3.6 Flash**.
 
-MPhil Physics Student
-
-Lahore College for Women University (LCWU)
-
----
-
-# 📄 License
-
-This project was developed for academic and educational purposes.
-
----
-
-# ⭐ Thank You
-
-Thank you for exploring **Bill Lens AI**.
-
-If you found this project useful, consider giving it a ⭐ on GitHub!
+- **Icons:** [Lucide React](https://lucide.dev)
+- **Charts:** [Recharts](https://recharts.org)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com)
+- **AI SDK:** [@google/genai](https://www.npmjs.com/package/@google/genai)
