@@ -1,0 +1,6 @@
+{
+  "name": "BILL LENS",
+  "description": "Understand Every Bill. AI-powered bill analysis, OCR scanning, charge breakdown, anomaly detection, Financial Health Score, and personalized savings tips.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

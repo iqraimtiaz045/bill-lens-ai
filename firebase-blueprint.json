@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "user": {
+      "collection": "users",
+      "fields": {
+        "name": { "type": "string", "description": "Full name of user" },
+        "email": { "type": "string", "description": "Email address" },
+        "householdSize": { "type": "number", "description": "Number of household members" },
+        "region": { "type": "string", "description": "Geographic region" },
+        "homeType": { "type": "string", "description": "Type of residence" },
+        "avatarUrl": { "type": "string", "description": "Avatar photo URL" },
+        "preferences": { "type": "map", "description": "User preferences" }
+      }
+    },
+    "bill": {
+      "collection": "bills",
+      "fields": {
+        "userId": { "type": "string", "description": "Owner user ID" },
+        "category": { "type": "string", "description": "Bill category" },
+        "providerName": { "type": "string", "description": "Provider name" },
+        "accountNumberMasked": { "type": "string", "description": "Masked account number" },
+        "billDate": { "type": "string", "description": "Date of bill" },
+        "dueDate": { "type": "string", "description": "Due date" },
+        "totalAmount": { "type": "number", "description": "Total amount" },
+        "currency": { "type": "string", "description": "Currency code" },
+        "imageUrl": { "type": "string", "description": "Image URL if available" },
+        "lineItems": { "type": "array", "description": "List of line items" },
+        "aiAnalysis": { "type": "map", "description": "AI analysis summary and scores" },
+        "hasAnomaly": { "type": "boolean", "description": "Whether anomaly was detected" },
+        "anomalyCount": { "type": "number", "description": "Count of anomalies" },
+        "status": { "type": "string", "description": "Status of bill" },
+        "createdAt": { "type": "string", "description": "Timestamp" }
+      }
+    },
+    "notification": {
+      "collection": "notifications",
+      "fields": {
+        "userId": { "type": "string", "description": "Owner user ID" },
+        "type": { "type": "string", "description": "Notification type" },
+        "title": { "type": "string", "description": "Title" },
+        "body": { "type": "string", "description": "Body message" },
+        "relatedBillId": { "type": "string", "description": "Optional related bill ID" },
+        "isRead": { "type": "boolean", "description": "Read status" },
+        "createdAt": { "type": "string", "description": "Timestamp" }
+      }
+    }
+  }
+}
